@@ -40,7 +40,7 @@ export default function LandingHero() {
         </Link>
       </div>
       <div className=" flex flex-col justify-center">
-        <Image className="" alt="text" src={HeroImg} />
+        <Image priority className="" alt="text" src={HeroImg} />
       </div>
     </section>
   );

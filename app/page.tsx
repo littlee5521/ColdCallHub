@@ -2,6 +2,7 @@ import Image from "next/image";
 import LandingHero from "./ui/landingpage/hero";
 import HeroFeatures from "./ui/landingpage/features";
 import HowItWorks from "./ui/landingpage/howitworks";
+import PerformanceTrackingLandingPage from "./ui/landingpage/peformancetracking";
 
 export default function Home() {
   return (
@@ -9,6 +10,7 @@ export default function Home() {
       <LandingHero />
       <HeroFeatures />
       <HowItWorks />
+      <PerformanceTrackingLandingPage />
     </main>
   );
 }
