@@ -1,4 +1,4 @@
-import { poppins, kanit, josefin_sans } from "../fonts";
+import { kanit, josefin_sans } from "../fonts";
 import Image from "next/image";
 import HeroImg from "../../../public/hero.png";
 import Link from "next/link";
@@ -6,11 +6,9 @@ import Link from "next/link";
 export default function LandingHero() {
   return (
     <section
-      className={`  text-center px-6 block sm:flex pt-2 sm:pt-12 py-12 `}
+      className={`  text-center px-6 block lg:flex pt-2 sm:pt-12 py-12 `}
     >
-      <div
-        className={` ${poppins.className} flex justify-between py-14 gap-5 sm:gap-0 flex-col`}
-      >
+      <div className={` flex justify-between py-14 gap-5 flex-col`}>
         {
           //this is going to be the titles
         }
