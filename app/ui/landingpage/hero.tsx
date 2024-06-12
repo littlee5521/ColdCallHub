@@ -34,7 +34,7 @@ export default function LandingHero() {
           className={` ${kanit.className} w-fit mx-auto`}
           href={"/dashboard"}
         >
-          <p className="text-3xl w-fit py-2 px-4 transform transition-transform duration-300 hover:shadow-lg hover:-translate-y-1 shadow-md bg-cch_primary rounded-md m-auto">
+          <p className="text-3xl w-fit py-2 border border-cch_accent px-4 transform transition-transform duration-300 hover:shadow-lg hover:-translate-y-1 shadow-md bg-cch_primary rounded-md m-auto">
             Get Started
           </p>
         </Link>

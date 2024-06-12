@@ -10,7 +10,7 @@ export default function HeroFeatures() {
       <h2 className={` ${josefin_sans.className} font-bold mb-8 text-4xl`}>
         Features
       </h2>
-      <div className=" flex-col gap-6 flex text-xl md:flex-row justify-between">
+      <div className=" flex-col gap-6 flex text-xl lg:flex-row justify-between">
         <div
           className={` bg-cch_secondary border border-cch_accent flex-1 min-w-0 p-6 rounded-lg `}
         >
@@ -22,7 +22,7 @@ export default function HeroFeatures() {
           <h3 className={`${josefin_sans.className} font-bold pb-2 text-2xl `}>
             Rich Note Taking
           </h3>
-          <p>
+          <p className="">
             Enhance your note-taking experience with advanced text formatting
             options. Use bold, italics, and underline to emphasize key points,
             and organize your thoughts with bullet points and numbered lists.
