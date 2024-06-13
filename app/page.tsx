@@ -3,6 +3,7 @@ import LandingHero from "./ui/landingpage/hero";
 import HeroFeatures from "./ui/landingpage/features";
 import HowItWorks from "./ui/landingpage/howitworks";
 import PerformanceTrackingLandingPage from "./ui/landingpage/peformancetracking";
+import PrcingLandingPage from "./ui/landingpage/pricing";
 
 export default function Home() {
   return (
@@ -11,6 +12,7 @@ export default function Home() {
       <HeroFeatures />
       <HowItWorks />
       <PerformanceTrackingLandingPage />
+      <PrcingLandingPage />
     </main>
   );
 }
