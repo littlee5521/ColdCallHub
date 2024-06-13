@@ -89,7 +89,7 @@ export default function PrcingLandingPage() {
           </div>
         </div>
         <div className=" flex flex-col lg:flex-row gap-6 flex-1">
-          <div className="flex-1 border relative border-cch_accent w-5/6 md:w-2/3 mx-auto lg:w-full bg-cch_secondary">
+          <div className="flex-1 border ps-5 relative border-cch_accent w-5/6 md:w-2/3 mx-auto lg:w-full bg-cch_secondary">
             <Image
               className=" mx-auto w-24 h-24 "
               alt="a padlock icon "
@@ -128,7 +128,7 @@ export default function PrcingLandingPage() {
               </p>
             </Link>
           </div>
-          <div className="flex-1 border relative border-cch_accent w-5/6 md:w-2/3 mx-auto lg:w-full bg-cch_secondary">
+          <div className="flex-1 border px-5 relative border-cch_accent w-5/6 md:w-2/3 mx-auto lg:w-full bg-cch_secondary">
             <Image
               className=" mx-auto w-24 h-24 "
               alt="a padlock icon "
