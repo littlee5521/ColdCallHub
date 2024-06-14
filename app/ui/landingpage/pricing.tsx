@@ -35,7 +35,7 @@ export default function PrcingLandingPage() {
               </li>
             </ul>
             {
-              // dog this feels so cheap, if your looking at this forgive me lmao. Its a invisbile div to keep the absoultely positioned links from overlaying on top of the text
+              // dog this feels so cheap, if your looking at this forgive me. Its a invisbile div to keep the absoultely positioned links from overlaying on top of the text
             }
             <div className={` ${kanit.className} invisible w-fit mx-auto`}>
               <p className="text-xl w-fit py-2 mb-5 border border-cch_accent px-4 transform transition-transform duration-300 hover:shadow-lg hover:-translate-y-1 shadow-md bg-cch_primary rounded-md m-auto">

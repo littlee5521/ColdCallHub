@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { kanit } from "../fonts";
+import { kanit } from "./fonts";
 
 export default function NavBar() {
   return (
