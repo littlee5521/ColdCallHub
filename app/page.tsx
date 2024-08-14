@@ -1,4 +1,3 @@
-import Image from "next/image";
 import LandingHero from "./ui/landingpage/hero";
 import HeroFeatures from "./ui/landingpage/features";
 import HowItWorks from "./ui/landingpage/howitworks";

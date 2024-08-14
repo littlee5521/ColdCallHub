@@ -5,6 +5,7 @@ import AiSvg from "../../../public/ai.svg";
 import DashBoardSvg from "../../../public/dashboard.svg";
 
 export default function HeroFeatures() {
+
   return (
     <section className={` ${kanit.className} py-12 text-center px-6`}>
       <h2 className={` ${josefin_sans.className} font-bold mb-8 text-4xl`}>
